@@ -1,0 +1,64 @@
+@charset 'utf-8';
+    @import url('https://fonts.googleapis.com/css?family=Roboto:500');
+  
+/*Configuração da Tabela*/
+table{
+    width: 100%;
+    margin: auto;   
+    }
+
+/*Configuração da Linhas das Tabelas  */
+th{
+    padding: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    text-align: left;
+    border-bottom:1px solid #979797;    
+    }
+/*Configuração das celulas(dados) da Tabela  */
+        td{
+            padding: 15px;
+            font-family: 'Roboto', sans-serif;
+            font-size: 13px;
+            text-align: left;
+            border-bottom:1px solid #979797;
+            margin: 5px; 
+            }
+            tr:hover{
+                background-color: #eeeeee;
+                }
+/*Configuração da caixa dos Input checkbox*/
+            .checagem{
+                text-align: center;
+                width: 20px;
+                }
+
+/*Configuração titulo da tabela */
+caption{
+    padding: 20px 10px 20px 30px;
+    text-align: left;
+    font-family: 'Roboto', sans-serif;
+    font-size: 20px;
+    color: #000000;
+    opacity: 0.90;
+    font-weight: 500;
+    }
+
+/*Configuração texto final da tabela--não conseguir usar o #Tfoot# */
+    p{
+        padding: 10px;
+        text-align: right;
+        font-family: 'Roboto',sans-serif;
+        font-size: 12px;
+        color: #000000;
+        opacity: 0.60;
+        font-weight: 400;   
+            }                    
+
+a{
+    text-align: right;
+    padding: 10px 5px 5px 40px;
+    }
+
+
+

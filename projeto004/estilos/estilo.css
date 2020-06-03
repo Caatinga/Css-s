@@ -1,0 +1,58 @@
+@charset 'utf-8';
+    @import url('https://fonts.googleapis.com/css?family=Oswald:500');
+
+    body{
+        background-color: white;
+    }
+
+.projetos{
+    width: 100%;
+    }
+ul{
+    display: block;
+    padding-top: 0px;
+    padding-left: 0px;
+    margin: 0px;
+    }
+
+ li{
+    display: block;
+    list-style: none;
+     padding: 60px 60px 60px 100px;    
+     background-color: #4a4a4a; 
+     background-image: url(ok.png); background-repeat: no-repeat;
+     background-position: center left 40px;
+     margin-bottom: 2px;     
+    }
+li.falta{
+    background-image: url(done---1477--copy-3.png); background-repeat: no-repeat;
+    }
+a{   
+    display: block;
+    font-family: 'Oswald', sans-serif;
+    letter-spacing: 02px;
+    font-weight: bolder;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;   
+    background-image: url(seta.png);background-repeat: no-repeat;
+    background-position: center right; 
+    margin-left: 50px;
+    letter-spacing: 2px;
+    -webkit-font-smoothing: antialiased;
+    }
+
+.concluido{ /*CLASSE DOS PROJETOS CONCLUIDOS*/
+    background-color: #27ae60;
+    }
+.concluido:hover{
+    background-color: rgba(39, 174, 95, 0.8);
+    }
+
+.falta{/*CLASSE DOS PROJETOS QUE FALTAM*/
+    background-color: #4a4a4a;
+    }
+.falta:hover{
+    background-color: rgba(74, 73, 74, 0.8);
+    }
+

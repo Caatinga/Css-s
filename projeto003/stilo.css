@@ -1,0 +1,62 @@
+@charset 'utf-8';
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+    //**Configuração Padrão**//
+*{
+    margin: 0px;
+    height: 0px;
+}    
+
+body{
+    background-color: #745cc1;
+}
+
+.logo{
+    text-align: center;
+    padding-bottom: 50px;
+}
+input{
+    width: 100%;
+    background-color: transparent;
+    border-color: transparent;     
+    font-size: 21px;
+    margin: auto;
+    padding-left: 20px;
+    }
+hr{
+    margin-bottom: 60px;
+    padding-left: 20px;
+    margin-left: 20px;
+}
+::-webkit-input-placeholder {
+    color: #dddddd;
+    font-family: 'roboto','sans-serif';
+    margin-bottom: 0px;
+    font-weight: 300;
+   
+    
+    }
+
+button{
+    margin: auto;
+    padding: auto;
+    background-color: white;
+    width: 247px;
+    height: 50px;
+    border-radius: 40px;
+    background-color: #ffffff; 
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: Roboto;
+    color: #39393a;
+}
+p{
+    text-align: center;
+   
+}
+p a{
+    text-decoration: none;
+     color: #ffffff;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.5);
+    font-family: Roboto;
+    text-decoration: none;
+}

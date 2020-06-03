@@ -1,0 +1,304 @@
+@charset 'utf-8';
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+body{
+    font-family: 'Lato',sans-serif;
+    -webkit-font-smoothing:antialiased;      
+    }
+    .imgs{ /*CLASSE IMAGENS CRIADA PARA PADRONIZAR NO PROJETO*/
+        max-width: 380px;
+        max-height:397px;
+        margin: 0px;
+        padding: 0px;
+        }
+section{    
+    margin-bottom: 5px;
+    height: 300px;        
+    }
+.container{
+    max-width: 860px;   
+    margin:  auto;
+    display: flex;
+    }
+    header{/*FORMATANDO CABEÇALHO*/
+        background-image: url(../imagens/fundo-top.png);
+        background-size: cover;
+        background-position: center;
+        height: 700px;                     
+        }
+        header .container{
+            display: flex;
+            justify-content: space-around;
+            align-items: center                
+            }
+            header h1{
+                background-image: url('../imagens/logo.png');
+                width: 177px;
+                height: 75px; 
+                margin: 10px;
+                }
+                header h1 span{
+                    visibility: hidden;
+                    }
+                    header .container nav{                       
+                        margin-right: 100px;                        
+                        }
+                        header nav ul li{
+                          display: inline-block;
+                          margin-right: 60px;                 
+                          }
+                          header nav ul li:last-child{
+                            border: 1px solid #ffffff;
+                            border-radius: 3px;
+                            padding: 10px 30px;
+                            }
+                            header nav ul li a {
+                                text-decoration: none;  
+                                color: #ffffff;
+                                font-family: Lato;
+                                font-size: 20px;
+                                font-weight: 500;
+                                }
+       
+.inicio .container {/*CONTEUDO 1 (CHAMADA))*/
+    display: flex; 
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-top: 90px;
+    }
+    .inicio .container .conteudo1{
+        max-width: 460px;        
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        margin-bottom: 0px;
+        }
+        .inicio .container .conteudo1 h2{
+            color: #ffffff;
+            font-family: Lato;
+            font-size: 50px;
+            font-weight: 600;
+            margin-bottom: 10px;
+            margin-top: 0px;
+            padding: 0px;
+            }
+            .inicio .container .conteudo1 p{
+                padding: 0px;
+                color: #ffffff;
+                font-family: Lato;
+                font-size: 36px;
+                font-weight: 100;
+                margin-bottom: 10px;
+                margin-top: 0px;
+                }
+                .inicio .container .conteudo1 a{
+                    background-color: #ff3d7f;
+                    box-shadow: 0 6px 0 #a32751;
+                    border-radius: 3px;
+                    width: 100%;
+                    font-size: 36px;
+                    text-decoration: none;
+                    font-family: Lato;
+                    color: #ffffff;
+                    font-weight: 300;
+                    padding: 15px 0px;
+                    }
+#conheca{/*SESSÃO CONHEÇA*/
+    margin-top: 50px;
+   }                    
+    #conheca .container{
+        display: flex;
+        justify-content: space-around;
+        margin-bottom: 40px;    
+        }   
+        #conheca  article{
+            max-width: 370px;                
+            }
+            #conheca article h2{
+                color: #000000;
+                font-family: Lato;
+                font-size: 36px;
+                font-weight: 600;
+                }
+                #conheca article p{    
+                    color: #000000;
+                    font-family: Lato;
+                    font-size: 23px;
+                    font-weight: 300;
+                    margin-bottom: 30px;
+                    }
+                    #conheca article a{  
+                        box-shadow: 0 6px 0 #a32751;
+                        border-radius: 3px;
+                        background-color: #ff3d7f;
+                        color: #ffffff;
+                        font-family: Lato;
+                        font-size: 2em;
+                        font-weight: 300;
+                        text-decoration: none;
+                        max-width: 290px;
+                        padding:10px 40px;                
+                        }
+#depoimento .container{  /*SESSÃO DEPOIMENTO*/  
+    margin-top: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ebe8fb; 
+    border-top:3px solid #511099;
+    }
+    #depoimento .container img{
+       margin-top: 40px;
+        }
+    #depoimento .container p{
+        text-align: center;
+        max-width: 747px;        
+        color: #000000;
+        font-family: Lato;
+        font-size: 1.5em;
+        font-weight: 300;
+        }
+        #depoimento .container strong{
+            font-weight: 900;
+            font-size: 1.5em;            
+            margin-top: -20px;
+            margin-bottom: 80px;
+            }
+
+    #convite .container{ /*SESSÃO CONVITE*/
+        background-image: url('../imagens/fundo-fim.png'); background-repeat: no-repeat;
+        background-size: cover;
+        margin-top: 80px;
+        border: 1px solid violet;
+        height: 100%;
+        }       
+        #convite .container form{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin: 0 auto;
+            margin-top: 110px;
+            margin-bottom: 110px;     
+            padding: 20px 0px;
+            width: 55%;
+            background-color: #efe8f5;
+            background-color: rgba(255,255,255,0.8);
+            border-radius: 3px;
+            }
+            #convite .container form input{
+                background-color: transparent;                
+                border: none;                
+                width: 70%; 
+                text-align: center;
+                }
+                    ::-webkit-input-placeholder{    
+                        color: #4a4a4a;
+                        font-family: Lato;
+                        font-size: 1em;
+                        font-weight: 800;
+                        }
+                        #convite .container form button{
+                            background-image: url('../imagens/email.png');background-repeat: no-repeat;
+                            background-color: transparent;
+                            background-size: 100%;
+                            border: none;
+                            width: 90px;
+                            height: 45px;                            
+                            }
+                            #convite .container form span{
+                                visibility: hidden;
+                                }
+footer .container{/*RODAPÉ*/
+    background-color: #2a0157;
+    margin-top:3px;
+    }
+    footer .container p{
+    color: #ffffff;
+    font-family: Lato;
+    font-size: 1.125em;
+    font-weight: normal;  
+    letter-spacing: 0.5px;
+    margin:  0 auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    }
+
+        
+/*PADRÃO RESPONSIVO*/        
+@media (max-width:600px){
+header nav{
+    display: none;
+   }
+    header h1{
+        margin:0 auto;
+        }                        
+.inicio .container .conteudo1{
+    margin-right: 10px;
+    margin-left: 10px;
+    }
+#conheca .container img{
+    max-width: 360px;
+    max-height:320px;
+    margin-right:10px;
+    margin-left: 10px;                                    
+    }
+    #conheca .container{
+        display: flex;
+        flex-direction: column;                               
+        }
+        #conheca .container article h2{
+            font-size: 1.5em;
+            text-align: center;
+            }
+            #conheca .container article p{
+                font-size: 1em;
+                margin-left: 5px;
+                margin-right: 5px;
+                }
+                #conheca .container article a{                          
+                    max-width: 80%;
+                    padding: 5px 10px;
+                    margin:0 auto;
+                    display: block;                                
+                    }
+.inicio .container .conteudo1 h2{
+    font-size: 2em;
+    }
+    .inicio .container .conteudo1 p{
+        font-size: 1.2em;
+        }
+#depoimento .container{    
+    margin-top: 320px;    
+    }
+    #depoimento .container p{    
+    font-size: 1em;    
+        }
+        #depoimento .container strong{
+            margin-top: 1px;
+            font-size:1.2em
+            }
+#convite .container{
+    margin-top: 185px;
+    }
+     #convite .container form {        
+       width: 100%;
+       margin-right: 5px;
+       margin-left: 5px;
+       font-size: 0.875em;
+       font-weight: bold;
+       height: 20%;
+       display: block;
+       text-align: center;
+       }
+       #convite .container form input{
+            width: 90%;
+            }
+            #convite .container form button{
+                margin-top: 10px;
+            }
+        
+footer .container p{
+    font-size: 0.875em;
+    text-align: center;
+    }
+}

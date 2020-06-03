@@ -1,0 +1,168 @@
+/* 
+    Created on : 02/07/2018, 04:20:28
+    Author     : Gabriel
+*/
+@import url('https://fonts.googleapis.com/css?family=Lato:700');
+@import url('https://fonts.googleapis.com/css?family=Lato:300');
+html{
+    background-color: #777879;
+    -webkit-font-smoothing:antialiased;
+    -moz-font-smoothing:antialiased;
+    }
+
+.container{
+    background-color: white;   
+    display: flex;
+    }/*CONTAINER PRINIPAL DELIMITANDO O TAMANHO DAS DUAS SESÕES A SEGUIR*/
+.perfil{
+    background-color: #3a3c40;    
+    }/* PERFIL DO PROFISIONAL ONDE FICAM AS FOTOS NOME E ETC.*/
+.dados{
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    }/*DADOS DO PROFISSIONAL ONDE OS SKILLS E HISTORIES PROFESSIONAL*/
+    
+    header{
+        margin-top: 20px;
+        } /*CABECALHO DO PERFIL*/  
+    header img,h1,h2{    
+        margin: auto;    
+        text-align: center;    
+        }
+        header img{
+            max-width: 60%;       
+            }
+            header .title{
+            width: 80%;
+            color: #f5a623;
+            font-family: Lato;
+            font-size: 24px;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-top: 15px;
+            }
+                header .subtitle{ 
+                width: 80%;
+                color: #ffffff;
+                font-family: Lato;
+                font-size: 16px;
+                font-weight: 700;
+                }
+                .perfil .meu-btn{
+                    display: block;
+                    margin:auto;     
+                    max-width: 140px;       
+                    box-shadow: 0 4px 0 rgba(245, 166, 35, 0.6);
+                    border-radius: 3px;
+                    background-color: #f6a623;
+                    margin-top: 20px;
+                    margin-bottom:20px;        
+                    text-transform: uppercase;
+                    color:#ffffff;
+                    font-family: Lato;
+                    font-size: 14px;
+                    border: none;        
+                    }/*FIM CABECALHO DO PERFIL*/
+    /*BARRAS DE PROGRESSO*/
+ .container .barras{
+  margin: auto;
+  width: 85%;
+  color: #8fa4af;
+  font-family: Lato;
+  font-size: 12px;
+  font-weight: 400;
+  }
+   .container .barras .subtitle{
+        margin-top: 40px;
+        margin-bottom:10px;     
+        color: #eeeeee;
+        font-family: Lato;
+        font-size: 16px;
+        font-weight: 700;
+        }
+        .container .barras .progress{
+            background-color: #eeb65a;
+            max-height: 10px;
+            margin-bottom: 10px;
+            }
+            .progress::-webkit-progress-value{
+            background: black;
+            
+            }
+            
+                /*FIM BARRAS DE PROGRESSO*/
+/*ICONES REDES SOCIAIS*/              
+.container .icones{
+margin: auto;            
+width: 80%;
+text-align: center;                        
+}
+.container .icones a,i{
+    color: white;
+    font-size: 1.5em;
+    margin-right: 2px;
+    }
+/*FIM DO PERFIL*/
+                
+/*FALTA A COR DAS BARRAS DE PRORGRESSO*/
+/*DADOS DO PERFIL DIV DADOS*/    
+.dados h1{    
+    display: flex;
+    text-align: left;
+    padding: 10px;    
+    font-size: 18px;
+    color: #d0021b;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 900; 
+    border-bottom: 1px solid #d0011b;
+    align-items: flex-start;    
+    }  
+    
+        .dados .exp p{   /*PARAGRAFO EXPERIÊNCIA*/     
+        float: right;
+        margin-top: -25px;        
+        }        
+            .dados .forma p{/*PARAGRAFO FORMAÇÃO*/
+                margin-top: -25px;
+                float: right;              
+                margin-bottom: 75px;
+                }
+                .dados .dadosextras{/*DADOS EXTRAS (DIV DADOS EXTRAS)*/
+                    margin-top: -25px;                    
+                    }
+                        .dados .exp .dadosextras{
+                        margin-bottom: 65px;
+                        }
+                        .dados .forma .dadosextras{
+                          margin-bottom: 50px;                          
+                            }                           
+                            .dados .dadosextras strong{
+                            color: #3a3c40;
+                            font-family: Lato;
+                            font-size: 17px;
+                            font-weight: 900;
+                            }
+                            .dados .dadosextras span{
+                            color: #3a3c40;
+                            font-family: Lato;
+                            font-size: 15px;
+                            font-weight: 600;
+                                }
+                                .dados .dadosextras small{
+                                color: #3a3c40;
+                                font-family: Lato;
+                                font-size: 15px;                          
+                                 }/*FIM DADOS EXTRAS*/
+/*FIM DO PERFIL*/
+/*ICONES DOS PARAGRAFOS*/
+.dados h1 span i{     
+color: #d10014;
+font-size: 18px;
+}
+.dados h1 span {
+    margin-top: -2px;
+    margin-right:5px;
+    }/*FIM ICONES DOS PARAGRAFOS*/
+       

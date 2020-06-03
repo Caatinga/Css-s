@@ -1,0 +1,20 @@
+@charset "utf-8";
+    img{
+        width: 100%;
+        text-align: center;
+}
+.banner{
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    width: 100%;
+    font-family: georgia;
+    text-decoration: underline;
+    color: darkblue;
+    text-shadow: 1px 1px white;
+}
+span{
+    display: inline-block;
+}

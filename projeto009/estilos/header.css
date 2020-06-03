@@ -1,0 +1,57 @@
+/* 
+    Created on : 10/07/2018, 19:38:06
+    Author     : Gabriel
+*/
+header{
+    width: 100%;
+    background-color: #ffffff;
+    height: 40px;
+    border-bottom: 1px solid #eaeaea;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    }
+    header div{
+        display: flex;
+        align-items: center;     
+        }
+        header h2{           
+            width: 80px; 
+            margin-left: 20px;
+            color: #5e5f5f;
+            font-family: 'muliregular';
+            font-size: 18px;
+            font-weight: 700;
+            line-height: 18px;
+           margin-right: 5px;
+            }
+            header span{             
+                margin-right: 5px;
+                opacity: 0.5;
+                color: #4a4a4a;
+                font-size: 12px;
+                font-weight: 400;
+                font-family: 'muliregular';
+                }
+                header strong{             
+                    margin-right: 5px;
+                    opacity: 0.5;
+                    color: #4a4a4a;
+                    font-size: 12px;
+                    font-weight: 700;
+                    font-family: 'muliextrabold';
+                    }
+                    header span.fechar{                   
+                       margin-right: 5px;
+                       visibility: hidden;
+                       }                
+                        header a{ 
+                            background-image:url('../icones/icon-x.png');background-repeat: no-repeat;
+                            display: flex;
+                            background-position: center;
+                            }
+/* 
+    Finalizado header cabeçalho.
+    Created on : 10/07/2018, 19:38:06
+    Author     : Gabriel
+*/

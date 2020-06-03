@@ -1,0 +1,97 @@
+/* 
+    Created on : 10/07/2018, 22:04:02
+    Author     : Gabriel
+*/
+.resumos{
+    width: 45%;
+    background-color: #ebebeb;        
+    }
+    .resumos ul li{
+        display: flex;        
+        width: 300px;
+        margin: 0 auto;
+        justify-content: space-between;
+        border-bottom:1px solid rgba(158, 158, 158, 0.3);
+        padding-top: 20px;
+        padding-bottom: 15px;
+        align-items: center;
+        }        
+        .resumos ul li:last-child{
+            border-bottom: none;
+            }        
+            .resumos ul li div{
+                display: flex;
+                flex-direction: column;                
+                width: 180px;
+                margin-left: -20px;
+                }
+                .resumos ul li img{
+                    width: 47px;
+                    height: 47px;                 
+                    }
+                    .resumos ul li div h3{   
+                        color: #777879;
+                        font-family: 'muliregular';
+                        font-size: 12px;
+                        font-weight: 700;
+                        line-height: 13px;
+                        margin-bottom: 5px;
+                        }
+                        .resumos ul li div small{   
+                            color: #4a4a4a;
+                            font-family: 'muliregular';
+                            font-size: 10px;
+                            font-weight: 200;
+                            font-style: italic;
+                            margin-bottom: 5px;
+                            }
+                            .resumos ul li div span{
+                                color: #9c9c9c;
+                                font-family: 'muliextrabold';
+                                font-size: 10px;
+                                }
+                                .resumos ul li span.preco{ 
+                                    color: #777879;
+                                    font-family: 'muliextrabold';
+                                    font-size: 12px;
+                                    margin-right: 10px;                           
+                                    }
+/* 
+    PARTE FINAL DO CHECKOUT (TABELA))
+*/ 
+table{
+    width: 95%;;
+    margin: 0 auto;
+    padding: 5px;
+    margin-top: 30px;
+    border-top:1px solid #d5d3d6;
+    border-spacing: 0px;
+    }    
+    table th{
+        text-align: left;
+        color: #777879;
+        font-family: 'muliregular';
+        font-size: 12px;
+        font-weight: 400; 
+        padding-top: 10px;
+        }
+        table td{
+            text-align: right;
+            color: #777879;
+            font-family: 'muliregular';
+            font-size: 12px;
+            font-weight: 400;
+            padding-top: 10px;
+            }
+            table tbody{
+                margin-bottom: 10px;
+                }
+                table tfoot *{
+                    border-top:1px solid #d5d3d6;
+                    padding-top: 10px;
+                    font-family: 'muliextrabold';
+                    }
+ /* Finalizado parte final do checkout (tablea))
+    Created on : 10/07/2018, 22:04:02
+    Author     : gabri
+*/          

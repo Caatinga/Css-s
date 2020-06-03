@@ -1,0 +1,113 @@
+
+/* 
+    Created on : 10/07/2018, 22:03:50
+    Author     : gabri
+*/
+
+.cadCartao{
+    width: 55%;
+    background-color: #ffffff;
+    }    
+            .cards ul{
+                display: flex;
+                justify-content: center;
+                }
+                .cards ul li{
+                    list-style: none;
+                    padding: 15px;                
+                    margin-right: 3px;
+                    margin-top: 5px;                    
+                    }
+                    .cards ul li:hover{
+                        background-color: #f5f9fd;
+                        box-shadow: inset 0px 0px 2px #d1e2f6;
+                        border-radius:4px;
+                        }
+                        .cards ul li small{
+                            display: block;
+                            opacity: 0.7;
+                            color: #777879;
+                            font-family: 'muliregular';
+                            font-size: 12px;
+                            font-weight: 400;
+                            margin-left: -5px;
+                            }
+                            .cards ul li a{
+                               text-decoration: none;
+                               }
+/* Finalizado bandeira dos cartões.
+    Created on : 10/07/2018, 22:03:50
+    Author     : gabri
+*/
+.cadCartao hr{
+    width: 95%;
+    opacity: 0.2;
+    }
+    
+        .cadCartao form ul li{
+            list-style: none;
+            margin-bottom: 15px;
+            width: 270px;       
+            margin: 0 auto;
+            margin-bottom: 20px;            
+            }
+            .cadCartao form input{
+                border: 1px solid #dedede;
+                border-radius: 2px;
+                width: 270px;
+                box-sizing: border-box;
+                height: 40px;
+                padding-left: 10px;
+                }
+                .cadCartao form .data{
+                   width: 149px;
+                    }
+                    .cadCartao form .cvc{
+                        width: 96px;
+                        float: right
+                        }
+                ::-webkit-input-placeholder{                 
+                    color: #c4cbd0;
+                    font-family: 'muliregular';
+                    font-size: 14px;
+                    font-weight: 400;
+                    line-height: 13px;  
+                    }
+                    .cadCartao form label{
+                        display: flex;                        
+                        width: 270px;
+                        justify-content: flex-start;
+                        margin: 0 auto; 
+                        color: #777879;
+                        font-family: 'muliregular';
+                        font-size: 14px;
+                        font-weight: 400;
+                        line-height: 13px;
+                        align-items: center;
+                        margin-bottom: 30px;
+                        } 
+                        .cadCartao form label input{
+                            width: 20px;
+                            height: 20px;
+                            margin-right: 5px;
+                            }
+                            .cadCartao form button{
+                                width: 289px;
+                                display: flex;
+                                align-items: center;
+                                justify-content: center;
+                                margin: 0 auto;
+                                background-color: #8bd638;
+                                height: 44px;
+                                border-radius: 2px;
+                                border: none;
+                                color: #ffffff;
+                                font-family: 'muliregular';
+                                font-size: 16px;
+                                font-weight: 700;
+                                line-height: 16px;
+                                }
+/* Finalizado CADASTRO DO CARTÃO.
+    Created on : 10/07/2018, 22:03:50
+    Author     : gabri
+*/

@@ -1,0 +1,51 @@
+@charset 'utf-8';
+   @import url('https://fonts.googleapis.com/css?family=Open+Sans');
+    *{
+        margin: 0px;
+        padding: 0px;
+}
+    
+body{
+        background-color: white;
+    }
+
+img{
+    width: 100%;    
+    margin:auto;
+    padding:0px; 
+    border: 1px solid #e6e6e6;    
+    border-radius: 1px 1px;
+    }
+
+.titulo{
+    width: 100%;
+    text-transform: uppercase;
+    font-family: "Open Sans";
+    font-size: 14px;
+    color: #333333;
+    font-weight: 600;
+    line-height: 16px;
+    padding: 10px 10px 10px;
+}
+.titulo span{
+    color: #999999;
+    font-size: 11px;
+    font-family: "Open Sans";
+    font-weight: 300;
+}
+.noticia p.texto2{
+   color: #333333; 
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16px;
+    font-family: "Open Sans";
+}
+.noticia p{
+    padding: 10px;
+    font-family: "Open Sans", sans-serif;
+    color: #b5000d;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 18px;
+    }
+
